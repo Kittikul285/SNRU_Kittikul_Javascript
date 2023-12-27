@@ -63,16 +63,6 @@ function SumInfo(props)  {
 
 
 function App() {
-  
-  // const [counters, setCounters] = React.useState([ {id: 1, number: 0} ])
-  // // let allCounter = Array(counters).fill(<Counter />)
-  // const hdlAddCounter = ()=>{
-  //   let newId = counters.length===0 ? 1 :counters.at(-1).id +1
-  //   // setCounter([...counters, {id: newId, number : 0}])
-  //   let cloneCounters = [...counters]
-  //   cloneCounters.push( {in: newId, number:0} )
-  //   setCounters(cloneCounters)
-  // }
 
   const [counters,setCounter] = React.useState([ {id:1,number:0}])
   // let allCounter = Array(counters).fill(<Counter/>)
